@@ -96,11 +96,11 @@ E0b2 = Capb2;
 Pb10 = 0;
 Pb20 = 0;
 %% Pgrid
-Pgbound = 1000; %MW
-Cbuy = [20; 20; 25; 27.5; 29; 36; 36.5; 37; 40; 42; 45; 46; 42; 40; 37.5; 36.5; 36; 32; 27.5; 27; 23; 20.5; 20; 20]; %hourly data c/kWh for 1 day
+Pgbound = 1000;
+Cbuy = [20; 20; 25; 27.5; 29; 36; 36.5; 37; 40; 42; 45; 46; 42; 40; 37.5; 36.5; 36; 32; 27.5; 27; 23; 20.5; 20; 20]; 
 priceBase = 0.005;
-Cbuyd = priceBase*Cbuy*1000; %$/Mwh 
-daily_Csell = [30.00 29.75 27.00 27.50 30.00 31.00 36.00]; %$/Mwh
+Cbuyd = priceBase*Cbuy*1000; 
+daily_Csell = [30.00 29.75 27.00 27.50 30.00 31.00 36.00]; 
 combdata=[Cbuyd' daily_Csell];
 Cbuyd_m=mean(Cbuyd);
 mul=Cbuyd/Cbuyd_m;
