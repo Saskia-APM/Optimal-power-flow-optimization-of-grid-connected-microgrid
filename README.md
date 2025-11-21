@@ -8,3 +8,6 @@ This repository is dedicated to the optimization of optimal power flow (OPF) in 
 
 ## Dependencies
 This project utilizes the [OPTI optimization toolbox](https://github.com/jonathancurrie/OPTI), a powerful tool for solving linear, nonlinear, and mixed-integer optimization problems.
+
+## Citation:
+Putri, S. A., Ge, X., & Khazaei, J. (2024). Economic Dispatch and Power Flow Analysis for Microgrids. arXiv preprint arXiv:2411.19279.
